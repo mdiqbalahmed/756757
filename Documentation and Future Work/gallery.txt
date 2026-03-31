@@ -1,0 +1,2 @@
+1. Thumbnail Image store
+2. Define Images resolution(from Settings)

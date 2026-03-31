@@ -1,0 +1,250 @@
+@media (max-width: 992) {
+      html {
+            font-size: 55%;
+      }
+}
+
+@media only screen and (max-width: 480px) {
+
+      .banner_img img {
+            width: 100% !important;
+      }
+
+      #social {
+            text-align: center;
+            justify-content: center;
+      }
+
+      #footerNav>ul>li {
+            display: inline;
+      }
+
+      .text-right {
+            justify-content: center;
+            display: flex;
+      }
+
+      .custom_bg_footer {
+            display: block !important;
+      }
+
+      .foot_nav {
+            align-items: center;
+      }
+
+      .footer_link {
+            text-align: center;
+            border: none !important;
+            font-size: 85%;
+      }
+
+
+
+      /* Index Page Responsive Css Starts */
+      /* ===================*/
+      .custom_slider {
+            width: 100%;
+            height: auto;
+      }
+
+      /* ===================*/
+      /* Index Page Responsive Css Ends */
+
+
+
+      /* Head_Teacher */
+      /* ===================*/
+      .check h5,
+      .check p {
+            margin-top: 15px;
+            text-align: center;
+      }
+
+
+      .nav-link {
+            font-size: 90%;
+      }
+
+      .circle_social,
+      #search {
+            margin-top: 1em;
+      }
+
+      /* =================== */
+
+
+      /* Responsive News CSS Starts */
+      /* =================== */
+      .news_title {
+            display: inline;
+      }
+
+      #news {
+            height: none !important;
+      }
+
+      .breaking-news-slider {
+            overflow: hidden;
+            height: 50px;
+      }
+
+      .breaking-news-item {
+            display: inline-block;
+            padding: 0 10px;
+            font-size: 18px;
+            animation: scroll-left 50s linear infinite;
+            animation-delay: -25s;
+      }
+
+      @keyframes scroll-left {
+            0% {
+                  transform: translateX(100%);
+            }
+
+            100% {
+                  transform: translateX(-100%);
+            }
+      }
+
+      /* =================== */
+
+
+      /* Teachers Responsive */
+      /* =================== */
+      .teachers {
+            display: flex;
+      }
+
+      .custom_img {
+            border: 10px solid rgb(236, 236, 236);
+            border-bottom: none;
+            width: 165px;
+      }
+
+      /* =================== */
+
+
+      /* Profile Responsive */
+      /* =================== */
+      .fixed_img {
+            width: 188px;
+            height: auto;
+            display: flex;
+            border-radius: 5px;
+            margin: 0 auto;
+      }
+
+      /* =================== */
+
+
+      /* Gallery Responsive css */
+      /* =================== */
+      .description p {
+            font-size: 14px;
+      }
+
+      .img_area {
+            height: 70px;
+            width: 110px;
+      }
+
+      .img_area::before {
+            height: 70px;
+            width: 110px;
+            transform: rotate(166deg);
+      }
+
+      .img_area::after {
+            height: 70px;
+            width: 110px;
+            transform: rotate(197deg);
+      }
+
+      /* =================== */
+
+}
+
+
+
+/* TAB RESPONSIVE */
+@media(min-width: 481px) and (max-width: 768px) {
+      #footerNav>ul>li {
+            display: inline;
+      }
+
+      .text-right {
+            justify-content: center;
+            display: flex;
+      }
+
+      .custom_bg_footer {
+            display: block !important;
+      }
+
+      .foot_nav {
+            align-items: center;
+      }
+
+      .footer_link {
+            border: none !important;
+            font-size: 85%;
+      }
+
+
+      /* Teachers Responsive */
+      /* =================== */
+      .teachers {
+            display: flex;
+      }
+
+      .custom_img {
+            border: 10px solid rgb(236, 236, 236);
+            border-bottom: none;
+            width: 165px;
+      }
+      /* =================== */
+}
+
+
+
+/* MORE THAN TAB BUT NOT WIDESCREEN DISPLAY */
+@media(min-width: 768px) and (max-width: 998px) {
+      .description p {
+            font-size: 14px;
+      }
+
+      .img_area {
+            height: 50px;
+            width: 90px;
+      }
+
+      .img_area::before {
+            height: 50px;
+            width: 90px;
+            transform: rotate(166deg);
+      }
+
+      .img_area::after {
+            height: 50px;
+            width: 90px;
+            transform: rotate(197deg);
+      }
+
+      .footer_link {
+            border: none !important;
+            font-size: 85%;
+      }
+
+      /* Teachers Responsive */
+      /* =================== */
+      .teachers {
+            display: flex;
+      }
+
+      .custom_img {
+            border: 10px solid rgb(236, 236, 236);
+            border-bottom: none;
+            width: 120px;
+      }
+      /* =================== */      
+}

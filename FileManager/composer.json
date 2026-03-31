@@ -1,0 +1,24 @@
+{
+    "name": "croogo/filemanager",
+    "description": "Croogo FileManager Plugin",
+    "require": {
+        "ext-gd": "*",
+        "croogo/core": "^4.0",
+        "intervention/image": "^2.4.1",
+        "league/flysystem": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Croogo Development Team",
+            "email": "team@croogo.org"
+        }
+    ],
+    "type": "cakephp-plugin",
+    "autoload": {
+        "psr-4": {
+            "Croogo\\FileManager\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

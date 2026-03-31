@@ -1,0 +1,23 @@
+FutureWork Certificate:
+
+1. Repeated(redundent) Certificate generation from same Student ID with same type need to be stoped in the stage of certificate generation.
+
+2. Auto Generated token need to be introduced.
+
+3. Current Date will be placed automatically.
+
+4. Edit Certificate(if required).
+
+[NOTE: Line Seperator :: <br>
+	Tags Must have single space before their starting.	
+]
+
+
+
++_++_++_++_++_+==== MARGING ====+_++_++_++_++_+
+
+1. ROUTE
+2. ADMIN MANU
+3. CONTROLLER
+4. VIEW/TEMPLATE(CTP)
+5. WEBROOT/CSS/CORE/CSS/CUSTOM.CSS

@@ -1,0 +1,28 @@
+{
+    "name" : "Croogo/Core",
+    "description" : "Default theme for Croogo (Based on StartBootstrap Agency)",
+    "screenshot" : "img/screenshot.jpg",
+
+    "author" : "Croogo Dev Team",
+    "authorEmail" : "team@croogo.org",
+    "authorUrl" : "http://croogo.org",
+
+    "isFrontendTheme": true,
+    "isBackendTheme": true,
+
+    "menus" : [
+        "main",
+        "footer"
+    ],
+
+    "regions" : [
+        "right"
+    ],
+
+    "settings": {
+        "select2Defaults": {
+            "dropdownAutoWidth": true,
+            "theme": "bootstrap"
+        }
+    }
+}

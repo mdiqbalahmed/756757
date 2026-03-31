@@ -1,0 +1,28 @@
+<?php
+
+namespace Croogo\FileManager\Config;
+
+use Croogo\Core\Nav;
+
+Nav::add('sidebar', 'media', [
+    'icon' => 'image',
+    'title' => __d('croogo', 'Media'),
+    'url' => [
+        'prefix' => 'admin',
+        'plugin' => 'Croogo/FileManager',
+        'controller' => 'Attachments',
+        'action' => 'index',
+    ],
+    'weight' => 40,
+    'children' => [
+        'attachments' => [
+            'title' => __d('croogo', 'Attachments'),
+            'url' => [
+                'prefix' => 'admin',
+                'plugin' => 'Croogo/FileManager',
+                'controller' => 'Attachments',
+                'action' => 'index',
+            ],
+        ],
+    ],
+]);

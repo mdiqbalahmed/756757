@@ -1,0 +1,65 @@
+<?php $this->Form->unlockField('album_title'); ?>
+<?php $this->Form->unlockField('slug'); ?>
+<?php $this->Form->unlockField('album_location'); ?>
+<?php $this->Form->unlockField('types'); ?>
+<?php $this->Form->unlockField('params'); ?>
+<?php $this->Form->unlockField('description'); ?>
+<?php $this->Form->unlockField('status'); ?>
+<?php $this->Form->unlockField('thumbnail'); ?>
+
+<div>
+      <?php echo $this->Form->create('', ['type' => 'file']); ?>
+      <section>
+            <h4><?= __d('gallery', 'Add an Album') ?></h4>
+            <div class="row mx-3 mt-2 p-3 form-box">
+                  <div class="col-12 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Album title') ?></label>
+                        <input name="album_title" type="text" class="form-control" placeholder="Album title" required>
+                  </div>
+                  <div class="col-4 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Slug') ?></label>
+                        <input name="slug" type="text" class="form-control" placeholder="Slug">
+                  </div>
+                  <div class="col-md-4 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Params') ?></label>
+                        <input name="params" type="text" class="form-control" placeholder="Params">
+                  </div>
+                  <div class="col-4 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Location') ?></label>
+                        <select class="form-select option-class dropdown260" name="album_location">
+                              <option>-- Choose --</option>
+                              <option value="main">Main</option>
+                              <option value="slider">Slider</option>
+                              <option value="other">Other</option>
+                        </select>
+                  </div>
+                  <div class="col-12 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Description') ?></label>
+                        <textarea name="description" class="form-control" rows="2" placeholder="Description"></textarea>
+                  </div>
+
+                  <div class="col-md-4 mt-2">
+                        <label class="form-label"><?= __d('gallery', 'Status') ?></label>
+                        <select class="form-select option-class dropdown260" name="status">
+                              <option>-- Choose --</option>
+                              <option value="1">Active</option>
+                              <option value="0">Deactive</option>
+                        </select>
+                  </div>
+                  <div class="col-md-8 mt-2">
+                        <label class="Xlabel-height form-label"><?= __d('Gallery', 'Album Cover') ?></label>
+                        <div class="card">
+                              <div class="card-body">
+                                    <?php echo $this->form->file('thumbnail'); ?>
+                              </div>
+                        </div>
+                  </div>
+      </section>
+
+      <div class="text-right mt-5">
+            <button type="submit" class="btn btn-info"><?= __d('gallery', 'Submit') ?></button>
+
+            <?php echo $this->Html->Link('Back', ['action' => 'viewAlbum'], ['class' => 'btn btn-sucess']); ?>
+            <?php echo $this->Form->end(); ?>
+      </div>
+</div>

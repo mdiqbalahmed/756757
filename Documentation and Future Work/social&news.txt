@@ -1,0 +1,5 @@
+1. Social Menu must have id declaraed by developer from database.
+            if any new menu item need to be introduced as social icon/menu developer need to check that wether it is available in fontawsome or not. 
+            also He need to do some css for new menu in style.css
+
+2. News must be declaraed as "news" as type, and the Slug will be the link extension URL like, ".../type/slug"

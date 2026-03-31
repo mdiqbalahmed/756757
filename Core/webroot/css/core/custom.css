@@ -1,0 +1,2095 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.maateen.me/bangla/font.css');
+#bulk-action .form-group,
+.table-search .form-group {
+    margin-right: 0.25rem;
+}
+
+#top-right-menu .fas,
+.btn .fas {
+    margin-right: 0.5rem;
+}
+
+.extensions-themes .badge {
+    margin: 0 8px 8px 0;
+}
+
+.form-box {
+    border: 1px solid;
+    border-color: darkgrey;
+    border-radius: 10px
+}
+
+/* Check box Design Here @shihab */
+.checkbox_attend {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5);
+    /* IE */
+    -moz-transform: scale(1.5);
+    /* FF */
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    -o-transform: scale(1.5);
+    /* Opera */
+    padding: 10px;
+    /* Centerize */
+    width: 100%;
+}
+
+.checkbox1,
+.checkbox2 {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.3);
+    /* IE */
+    -moz-transform: scale(1.3);
+    /* FF */
+    -webkit-transform: scale(1.3);
+    /* Safari and Chrome */
+    -o-transform: scale(1.3);
+    /* Opera */
+    padding: 10px;
+    /* Centerize */
+    width: 100%;
+}
+
+.checkboxall {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5);
+    /* IE */
+    -moz-transform: scale(1.5);
+    /* FF */
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    -o-transform: scale(1.5);
+    /* Opera */
+    padding: 10px;
+    /* Centerize */
+    background: red;
+}
+
+/* SMS Fixed Header @shihab */
+.fixed-header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+}
+
+.form-select {
+    width: 100% !important;
+}
+
+.Dept_SMS {
+    overflow-x: auto;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.action-btn {
+    padding: 5px;
+    font-size: 90%;
+}
+
+.thumbnail {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    height: 85px;
+}
+
+.profile {
+    border: 1px dotted rgb(44, 44, 44);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.profile-badge img {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#thumbnail-label {
+    font-size: 16px !important
+}
+
+.leave-attachments img {
+    width: 300px !important;
+    float: right !important;
+
+}
+
+.leave-attachments-action {
+    width: 500px !important;
+    margin: 0 auto !important;
+}
+
+#LeaveStatus1,
+#LeaveStatus2,
+#LeaveStatus3 {
+    width: 220px !important;
+    pointer-events: none;
+    cursor: default;
+}
+
+
+/* PAGINATION DESIGN START */
+.custom_paginate.page-item {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+/* PAGINATION DESIGN END */
+
+/* Student Add FORM START  @shihab*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container p {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.dropdown-toggle {
+    background-color: #fff;
+}
+
+.form-control {
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: rgb(5, 90, 69);
+}
+
+.form-check-input:checked {
+    background-color: rgb(5, 90, 69);
+    border-color: rgb(5, 90, 69);
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-control:hover {
+    border-color: rgb(5, 90, 69);
+}
+
+.bg-custom {
+    border: 1px solid rgb(5, 90, 69);
+}
+
+.btn-custom {
+    border-color: rgb(5, 90, 69);
+    color: rgb(5, 90, 69);
+}
+
+.btn-custom:hover {
+    background-color: rgb(5, 90, 69);
+    color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.row.m-0 {
+    border-bottom: 1px solid #f4be2b;
+    margin-bottom: 15px !important;
+    background: #f4be2b;
+    font-weight: 600;
+    color: #fff;
+}
+
+.row.mb-2 {
+    margin: 0;
+}
+
+.col-lg-4 p {
+    font-size: 12px;
+}
+
+
+@media(max-width: 992px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media(max-width: 575px) {
+    form {
+        width: 100%;
+    }
+}
+
+/* Custom CSS for Form */
+.row2Field {
+    left: 3px !important;
+    position: relative;
+}
+
+.label-font {
+    font-size: 15px !important;
+}
+
+.label-font13 {
+    font-size: 13px !important;
+}
+
+.dropdown {
+    margin: 0 auto;
+}
+
+
+/* ADMIN TOP CORNER MENU */
+#top-right-menu>li {
+    border-left: 1px solid;
+    color: #fff;
+}
+
+#top-right-menu>li>a>i {
+    color: #fff !important;
+}
+
+#top-right-menu>li .dropdown-menu {
+    background: #fff;
+}
+
+#top-right-menu>li>a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: transparent !important;
+}
+
+/* ADMIN TOP CORNER MENU */
+
+
+.row3Field {
+    position: relative;
+    left: -8px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.btn-right {
+    float: right !important;
+}
+
+.form-border {
+
+    padding: 10px;
+    border: 1px dashed #34495e;
+}
+
+.eduAdd,
+.trAdd {
+    float: right !important;
+}
+
+.form_area {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
+/* CUSTOM CSS for AVATER */
+
+.avatar-wrapper {
+    position: relative;
+    height: 230px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 10px solid #fff;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px -5px black;
+    transition: all 0.3s ease;
+}
+
+.avatar-wrapper:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.avatar-wrapper:hover .profile-pic {
+    opacity: 0.3;
+}
+
+.avatar-wrapper .profile-pic {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.avatar-wrapper .profile-pic:after {
+    font-family: FontAwesome;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 190px;
+    background: #ecf0f1;
+    color: #34495e;
+    text-align: center;
+}
+
+.avatar-wrapper .upload-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.avatar-wrapper .upload-button .fa-arrow-circle-up {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: #34495e;
+}
+
+.avatar-wrapper .upload-button:hover .fa-arrow-circle-up {
+    opacity: 0.9;
+}
+
+.form-avatar {
+    margin-bottom: 1100px;
+}
+
+.wide_cell {
+    white-space: nowrap;
+}
+
+.horizontal_scroll {
+    overflow-x: auto;
+}
+
+.horizontal_scroll>table>thead>tr:first-child th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/*Student Add Form END  @shihab */
+
+/* Responsive Table classes @shihab */
+@media only screen and (max-width: 600px) {
+
+    input,
+    select {
+        padding: 5px !important;
+    }
+
+    .thead-dark {
+        text-align: center;
+    }
+
+    .area-row {
+        max-width: 100%
+    }
+
+    .form-select {
+        font-size: 80%;
+        width: 80%;
+    }
+
+    .form-control {
+        font-size: 75%;
+    }
+
+    .form-label {
+        font-size: 80% !important;
+    }
+
+    .option-class {
+        font-size: 80%;
+    }
+
+    .choose-class {
+        font-size: 50%;
+    }
+
+
+    .btn {
+        padding: 5px;
+        font-size: 80%;
+    }
+
+    th {
+        font-size: 85%;
+    }
+
+    td {
+        max-width: 120px;
+        font-size: 80%;
+    }
+
+    #Level_id {
+        width: 196px;
+    }
+
+    #inputStateID {
+        width: 80%;
+    }
+
+    .option-select {
+        font-size: 80% !important;
+    }
+
+    .send-sms-to {
+        font-size: 90% !important;
+    }
+
+    .Dept_SMS {
+        overflow-x: auto;
+        height: 300px;
+        overflow-y: auto;
+        margin-top: 1rem;
+    }
+
+    .staff_sms {
+        margin-top: 2rem;
+    }
+
+    .std_info,
+    #Gurdian_info {
+        font-size: 80%;
+    }
+
+    .mother-form {
+        margin-top: 3rem;
+    }
+
+    /* Check box Responsive Design Here @shihab */
+    .checkbox_attend {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(1.3);
+        /* IE */
+        -moz-transform: scale(1.3);
+        /* FF */
+        -webkit-transform: scale(1.3);
+        /* Safari and Chrome */
+        -o-transform: scale(1.3);
+        /* Opera */
+        padding: 10px;
+        /* Centerize */
+        width: 100%;
+    }
+
+    .checkbox1,
+    .checkbox2 {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(1.2);
+        /* IE */
+        -moz-transform: scale(1.2);
+        /* FF */
+        -webkit-transform: scale(1.2);
+        /* Safari and Chrome */
+        -o-transform: scale(1.2);
+        /* Opera */
+        padding: 10px;
+        /* Centerize */
+        width: 100%;
+    }
+
+    .checkboxall {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(1.3);
+        /* IE */
+        -moz-transform: scale(1.3);
+        /* FF */
+        -webkit-transform: scale(1.3);
+        /* Safari and Chrome */
+        -o-transform: scale(1.3);
+        /* Opera */
+        padding: 10px;
+        /* Centerize */
+        background: red;
+    }
+
+}
+
+.mystyle_hidden {
+    display: none !important;
+}
+
+
+/* Print Certificate and Exclude the other area using Media print and  no_print classs */
+@media print {
+
+    .nav-sidebar,
+    .navbar,
+    .navbar-dark,
+    .no_print {
+        display: none !important;
+    }
+}
+
+
+/* Certificate CSS @shihab*/
+/* Starts */
+
+
+/* Certificate CSS @shihab */
+/* Ends */
+
+/* Gallery CSS@Shihab  */
+.gallery-thumbnail img {
+    max-width: 100px;
+    text-align: center;
+}
+
+/* Gallery CSS@Shihab  Ends */
+
+.scms-admit-print {
+    background: #CCC !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'SolaimanLipi', vrinda, arial;
+    font-size: 14px;
+    line-height: 1.188em;
+    color: #717171;
+    text-align: left;
+}
+
+/* marksheet CSS@Akash  Start */
+.scms-result-print {
+    background: #CCC !important;
+    padding: 0;
+    margin: 0;
+    font-family: 'SolaimanLipi', vrinda, arial;
+    font-size: 1.063em;
+    line-height: 1.188em;
+    color: #717171;
+    text-align: left;
+}
+
+.wraperResult {
+    /* margin: 0 auto; */
+    width: 800px;
+    height: 1130px;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #fff;
+    page-break-after: always;
+}
+
+/*.watermarked {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.watermarked::before {*/
+/*    position: absolute;*/
+/*    top: -75%;*/
+/*    left: -75%;*/
+
+/*    display: block;*/
+/*    width: 175%;*/
+/*    height: 200%;*/
+
+/*    transform: rotate(-45deg);*/
+/*    content: attr(data-watermark);*/
+
+/*    opacity: 0.4;*/
+/*    line-height: 2.5em;*/
+/*    letter-spacing: 2px;*/
+/*    color: #e1d6be;*/
+/*}*/
+
+/* iqbal vai */
+.watermarked {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .watermarked::before {
+        position: absolute;
+        top: -100%;
+        left: -100%;
+
+        display: block;
+        width: 500%;
+        height: 500%;
+
+        transform: rotate(-45deg);
+        content: attr(data-watermark);
+
+        opacity: 0.4;
+        line-height: 2.5em;
+        letter-spacing: 2px;
+        color: #e1d6be;
+        white-space: pre-wrap;
+        /* word-break: break-word;
+        overflow-wrap: break-word; */
+        box-sizing: border-box;
+    }
+
+    /* Ensure print background and control overflow */
+    @media print {
+        .watermarked::before {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            overflow: hidden;
+            max-height: 500%;
+            width: 500%;
+        }
+
+        .watermarked {
+            overflow: hidden;
+        }
+    } /* iqbal vai */
+
+.mainBgImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 75%;
+    opacity: 0.4;
+    filter: grayscale(100%);
+}
+
+#borderImg {
+    border: 25px solid transparent;
+}
+
+.textOverlay {
+    border: 5px solid transparent;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.resSummaryContainer {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.resContainer {
+    width: 712px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.resContainer h2 {
+    background-image: none !important;
+}
+
+.resHdr {
+    display: flex;
+    width: 660px;
+    /*padding: 45px 0 0;*/
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.ressummaryHdr {
+    display: flex;
+    width: 800px;
+    /*padding: 45px 0 0;*/
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.resLogo .img-fluid {
+    float: left;
+    /*margin-top: 5px;*/
+    display: block;
+}
+
+.schoolIdentity .img-fluid {
+    margin: 0;
+    float: left;
+}
+
+.schoolIdentity>img {
+    width: 100%;
+}
+
+.schoolIdentity {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.schoolIdentity>p {
+    transform: scale(1, 1.5);
+    font-size: 25px;
+    padding-top: 0.5em;
+}
+
+.result-bg .img-fluid {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    margin: 0;
+    z-index: 1;
+
+}
+
+.hdrText {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.hdrText span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.hdrText strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+.resTophdr {
+    /*margin-top: 8.25em !important;*/
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 1em;
+}
+
+
+.restopleft {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    padding: 0 0 0 5px;
+    margin: 0;
+    float: left;
+    border-left: 3px double #afafaf;
+    line-height: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    min-height: 80px;
+}
+
+.restopmiddle {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    padding: 0 0 0 5px;
+    margin: 0;
+    float: left;
+    border-left: 3px double #afafaf;
+    line-height: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    min-height: 80px;
+}
+
+.restopright {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    padding: 0 0 0 5px;
+    margin: 0;
+    float: left;
+    border-left: 3px double #afafaf;
+    line-height: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    min-height: 80px;
+}
+
+.restopleft div {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.restopleft div span,
+.restopleft em,
+.restopleft i,
+.restopleft b {
+    float: left;
+    font-style: normal;
+}
+
+.restopmiddle div span,
+.restopmiddle em,
+.restopmiddle i,
+.restopmiddle b {
+    float: left;
+    font-style: normal;
+}
+
+.restopright div span,
+.restopright em,
+.restopright i,
+.restopright b {
+    font-style: normal;
+}
+
+.restopleft div span {
+    width: 70px;
+    display: inline-block;
+
+}
+
+.restopmiddle div span {
+    width: 75px;
+    display: inline-block;
+
+}
+
+.restopright div span {
+    width: 70px;
+    display: inline-block;
+}
+
+.markTitle {
+    line-height: 22px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    border-bottom: 3px solid #000;
+}
+
+
+.pagetble {
+    width: 100% !important;
+}
+
+.pagetble_middle {
+    width: 100% !important;
+}
+
+.pagetble,
+.pagetble_middle {
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.pagetble tr th,
+.pagetble tr td,
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    font-size: 12px !important;
+    text-transform: capitalize;
+}
+
+.pagetble_middle tr th {
+    text-transform: uppercase;
+}
+
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    height: 20px;
+    font-size: 12px;
+    padding: 0;
+    text-transform: none;
+}
+
+.pagetble tr th,
+.pagetble tr td,
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    line-height: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+.pagetble tr th,
+.pagetble tr td,
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    font-size: 12px !important;
+    text-transform: capitalize;
+}
+
+.pagetble tr th,
+.pagetble tr td,
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    line-height: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.pagetble tr th,
+.pagetble tr td,
+.pagetble_middle tr th,
+.pagetble_middle tr td {
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    line-height: 16px !important;
+}
+
+.pagetble_middle tr td.res7 {
+    width: 60px;
+}
+
+.pagetble_middle tr td.res5 {
+    width: 44px;
+}
+
+.pagetble_middle tr td.cTitle {
+    padding-left: 5px;
+    text-align: left;
+    line-height: 16px;
+}
+
+.pagetble_middle tr td.res4 {
+    width: 38px;
+}
+
+.pagetble_middle tr td.res3 {
+    width: 43px;
+}
+
+th.res3.examtitle {
+    white-space: nowrap;
+}
+
+.wraperResult tbody,
+.wraperResult td,
+.wraperResult th,
+.wraperResult tr {
+    border-color: #000;
+}
+
+.resmidcontainer,
+.btmcontainer {
+    margin: 5px 0 0 !important;
+}
+
+.overalreport {
+    width: 306px;
+    padding: 0;
+    margin: 0 6px 0 0;
+    overflow: hidden;
+    float: left;
+}
+
+.markTitle {
+    line-height: 22px;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    /* background: url(../images/hdrtitle.gif) no-repeat; */
+    border-bottom: 3px solid #000;
+}
+
+.attendenceReport {
+    width: 202px;
+}
+
+.attendenceReport table,
+.gpagrading table {
+    width: 100%;
+}
+
+.gpagrading {
+    width: 192px;
+    margin-right: 0;
+    float: right;
+}
+
+.signatureWraper {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.signatureCont {
+    width: 85%;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.signatureCont div {
+    line-height: 22px;
+    font-size: 15px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.signatureWraper .sign-grdn {
+    width: 140px
+}
+
+.signatureWraper .sign-clsT {
+    width: 174px;
+    margin-left: 90px
+}
+
+.signatureWraper .sign-head {
+    width: 200px;
+    float: right
+}
+
+.signatureWraper b {
+    width: 100%;
+    margin: 80px 0 0;
+    border-top: 1px dashed #000;
+    display: block;
+    font-weight: normal;
+    text-align: center
+}
+
+.signatureWraper img {
+    max-width: 75%;
+    position: absolute;
+    left: 38px;
+    bottom: 2px;
+    display: block;
+    margin: 0;
+    height: 65px !important;
+
+}
+
+.overlays {
+    display: flex;
+    justify-content: center
+}
+
+.textOverlay {
+    margin-top: 0.75em !important;
+    width: fit-content !important;
+    position: absolute;
+    text-align: center;
+}
+
+.title_exam {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_exam_2 {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+
+p.title_exam {
+    margin-bottom: -0.5em !important;
+}
+
+/* marksheet CSS@Akash  End */
+/* tabulation  CSS@Akash  start */
+
+.tabulationInst {
+    font-size: 32px;
+    color: #000 !important;
+    text-align: center;
+}
+
+body.scms-result-print {
+    background: #CCC;
+}
+
+.tabulation {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+
+.tabulation table {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+    font-size: 11px;
+    color: #000;
+    line-height: 13px;
+    text-align: center;
+}
+
+.tabulation .table_title {
+    border-top: 1px solid #717171;
+    border-left: 1px solid #717171;
+    background: #e8e8e8;
+}
+
+.tabulation .table_title td {
+    border-right: 1px solid #717171;
+    border-bottom: 1px solid #717171;
+}
+
+.tabulation tr {
+    border-right: 1px solid #717171;
+    border-bottom: 1px solid #717171;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.tabulation tbody {
+    display: table-row-group;
+}
+
+.tabulation .subject_table {
+    width: 100px;
+    font-weight: normal;
+}
+
+/* .tabulation .subject_hd_table td {
+    border: none;
+} */
+.tabulation thead,
+.tabulation tbody,
+.tabulation tfoot,
+.tabulation td,
+.tabulation th,
+.tabulation tr {
+    border-left: 1px solid #717171;
+    border-right: 1px solid #717171;
+    border-bottom: 1px solid #717171;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+/* tabulation  CSS@Akash  end */
+
+/* result summary  CSS@Akash  start */
+.wraperResultSummary {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.wraperResultSummary {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.resHeader {
+    width: 660px;
+    height: 145px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.resLogo {
+    width: 12%;
+    float: left;
+    display: block;
+}
+
+.tabulationTop {
+    margin-bottom: 1em;
+}
+
+.tabulationTop img {
+    width: 100% !important;
+
+}
+
+.tabulationText {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.hdrText strong,
+.hdrText span {
+    display: block;
+    text-transform: uppercase;
+    line-height: 0px;
+    font-size: 16px;
+}
+
+.hdrText strong {
+    font-size: 12px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resultSummary {
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.resultSummary table,
+.resultSummary tr th,
+.resultSummary tr td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.summary_table {
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.crsFailed {
+    color: red;
+    text-decoration: underline;
+}
+
+/* ORDER BUTTON CSS @SHIHAB STARTS*/
+.order_button {
+    border: none !important;
+    padding: 0 !important;
+    background-color: transparent;
+}
+
+.order_button .fa-chevron-up {
+    color: #00700d;
+}
+
+.order_button .fa-chevron-down {
+    color: #c50000;
+}
+
+.order_button:hover {
+    transform: scale(1.25);
+}
+
+/* ORDER BUTTON CSS @SHIHAB ENDS*/
+
+
+/* DASHBOARD STATISTICS DESIGN @SHIHAB STARTS*/
+div.card-body>a {
+    font-size: 10px;
+}
+
+div.card-body.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.stat_title {
+    margin-top: 0.5em;
+    margin-bottom: -0.75em;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.card-body canvas:not(.full_height) {
+    height: 100px !important;
+}
+
+.db-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 0 8px white;
+    border-radius: 1em !important;
+    border: 1px solid rgb(0 0 0 / 6%) !important;
+}
+
+.dbc-body {
+    padding: 1rem !important;
+    padding-left: 0.35em !important;
+    padding-right: 0.35em !important;
+}
+
+.dbc-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 0 8px white;
+    border: 1px solid rgb(0 0 0 / 6%) !important;
+}
+
+.full_height {
+    max-height: 350px;
+}
+
+.select2-container {
+    all: unset;
+    display: inline !important;
+}
+
+.quicklinks a {
+    text-decoration: none;
+    color: unset;
+    font-size: 12px;
+    font-family: 'Bangla', sans-serif;
+}
+
+button.quicklinks {
+    padding: 0 !important;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+button.quicklinks:hover {
+    transform: scale(1.05);
+}
+
+legend.dbc-card {
+    /* all: unset; */
+    border: 1px #e0e0e0 solid;
+    padding: 0.2em 0.5em;
+    margin-top: 1em;
+    /* border: 1px solid green; */
+    color: #a6a6a6;
+    font-size: 80%;
+    text-align: left;
+
+}
+
+#viewDetails {
+    display: none;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 999;
+    /* Ensure it's on top of other content */
+}
+
+#popup1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 999;
+    /* Ensure it's on top of other content */
+}
+
+#popup2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 999;
+    /* Ensure it's on top of other content */
+}
+
+#popup3 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    z-index: 999;
+    /* Ensure it's on top of other content */
+}
+
+#popup-content {
+    max-height: 80vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* STATISTICS REPORT */
+#statistics-table {
+    font-size: 12px;
+    width: 100%;
+}
+
+#statistics-table td {
+    padding: 3px !important;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle !important;
+    border-color: #00808099;
+
+}
+
+#statistics-table th {
+    padding: 5px !important;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle !important;
+    background-color: #0080805c;
+    border-color: #008080;
+
+}
+
+#statistics-table td strong {
+    font-size: 14px;
+}
+
+.stat-lvl-2 th {
+    max-width: 2em;
+    overflow: hidden;
+
+}
+
+/* school fees @akash strat */
+.month_form .checkbox {
+    padding: 1px;
+    background-color: #95bef2;
+    float: left;
+    margin: 2px;
+    clear: none;
+
+}
+
+.month_form .hidden_due {
+    text-align: justify;
+    font-size: 12px;
+    margin-top: -50px;
+    position: absolute;
+    width: 15em;
+    background-color: #f59e42;
+}
+
+.month_form .checkbox input {
+    float: right;
+    width: 3em !important;
+    margin-top: 8px !important;
+}
+
+
+.month_form .checkbox label {
+    padding: 2px;
+    float: left;
+    width: 7em;
+    margin: 5px;
+}
+
+.month_form .checkbox .checked {
+    background-color: #57b745;
+    color: #fff;
+}
+
+.month_form .checkbox .unchecked {
+    background-color: #fff;
+}
+
+.month_form .checkbox .due {
+    background-color: #db69a4;
+    color: #fff;
+}
+
+.month_form .checkbox .not_set {
+    background-color: #c3e3d7;
+}
+
+/* school fees @akash strat */
+.vn_form .checkbox {
+    padding: 1px;
+    background-color: #95bef2;
+    float: left;
+    margin: 2px;
+    clear: none;
+
+}
+
+.vn_form input[type=checkbox] {
+    line-height: normal;
+    height: 22px;
+}
+.vn_form .checkbox input {
+    float: right;
+    width: 3em !important;
+    margin-top: 30px !important;
+}
+
+
+.vn_form .checkbox label {
+    padding: 2px;
+    float: left;
+    width: 18em;
+    margin: 5px;
+}
+
+
+.vn_form .checkbox .unchecked {
+    background-color: #fff;
+}
+
+.vn_form .checkbox .due {
+    background-color: #db69a4;
+    color: #fff;
+}
+
+
+.error_message_student_fees {
+    width: 90%;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #fb6358;
+    font-size: 1.2em;
+    margin: 0 auto;
+    color: #fff;
+}
+.no_vn {
+    width: 90%;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: #339915;
+    font-size: 1.2em;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.purpose_block {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+/* school fees @akash end */
+
+
+/* SETTINGS ITEM SEPERATOR @SHIHAB */
+#settings-main>.form-group {
+    border-bottom: 1px dotted #0d7087;
+    padding-bottom: 1em;
+}
+
+/* SETTINGS ITEM SEPERATOR @SHIHAB ENDS*/
+
+
+
+/*Admit Card @Shovon*/
+.topMidEx {
+    padding: 0px;
+    color: #000;
+    margin: 0px;
+}
+
+.admitHdr {
+    display: flex;
+    width: 660px;
+    padding: 23px 0 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.hdrInstitute {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#borderImg {
+    border: 25px solid transparent;
+}
+
+.admiBtmtLftEx i {
+    font-style: normal !important;
+}
+
+.scms-result-print>.content {
+    margin-top: 0 !important;
+}
+
+/*@media print {*/
+/*    body {*/
+/*        background: none*/
+/*    }*/
+
+/*    .ExbtnWrap {*/
+/*        display: none !important;*/
+/*    }*/
+
+/*    .wraperAdmit {*/
+/*        margin: 0 !important*/
+/*    }*/
+
+/*    .page-break {*/
+/*        page-break-after: always;*/
+/*        break-after: page;*/
+/*    }*/
+
+    /*.scms-admitcard-print {*/
+    /*    background: none*/
+    /*}*/
+/*    .scms-admitcard-print {*/
+/*        background: none;*/
+/*        padding: 0;*/
+/*        margin: 0;*/
+/*        font-family: 'SolaimanLipi', vrinda, arial;*/
+/*        font-size: 1.063em;*/
+/*        line-height: 1.188em;*/
+/*        color: #717171;*/
+/*        text-align: left;*/
+/*    }*/
+
+/*    .scms-admitcard-print>.content {*/
+/*        margin-top: 0 !important;*/
+/*    }*/
+
+/*    .cutting-line {*/
+/*        margin-top: 2em;*/
+/*        padding-bottom: 2em;*/
+/*        border-top: 1px dashed #000;*/
+/*    }*/
+
+/*    .table-bordered td,*/
+/*    .table-bordered th {*/
+/*        border: 1px solid #000000 !important;*/
+/*    }*/
+
+
+/*}*/
+
+.ExClass {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    font-family: 'libre-baskerville';
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 2px dotted rgb(224, 213, 213);
+}
+
+.wraperAdmit {
+    /*page-break-after: always;*/
+    width: 800px;
+    height: 1035px;
+    margin: 0 auto;
+    /*font-style: italic;*/
+    /*font-family: "Times New Roman", Times, serif;*/
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    /*border: 1px solid #fff;*/
+}
+
+.admitBtmEx {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 15px 0 0;
+    margin: 0;
+    float: left;
+}
+
+.admiBtmtLftEx {
+    padding: 2px 0px 2px 16px;
+    margin: 0;
+    float: left;
+    /*font-family: 'libre-baskerville';*/
+    /*font-family: 'Respective';*/
+}
+
+.admitInfoEx {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.newInfoEx {
+    justify-content: space-between;
+}
+
+.infoTitleEx {
+    width: 126px;
+    padding: 0;
+    margin: -4px;
+    font-size: 16px;
+    line-height: 29px;
+    /*font-weight: 600;*/
+    color: #000;
+    display: inline-block;
+    font-style: italic
+}
+
+.infoNameEx {
+    width: 576px;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    display: inline-block;
+    color: #000;
+    border-bottom: 1px dotted #000;
+    font-style: italic
+}
+
+.infoTitleExNew {
+    width: 126px;
+    padding: 0;
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 22px;
+    /* border-bottom: 1px dotted black; */
+    color: #000;
+    display: inline-block;
+    font-style: italic
+}
+
+.infoNameExNew {
+    width: 95px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    display: inline-block;
+    color: #000;
+    border-bottom: 1px dotted #000;
+    text-align: center;
+    font-style: italic
+}
+
+.msgcontEx {
+    margin: 0 auto;
+    width: 700px;
+    font-size: 12px;
+    border: 2px dotted #999999;
+    padding: 5px;
+    font-family: 'SolaimanLipi';
+    color: #333333;
+    text-align: justify;
+    margin-top: 22px;
+    line-height: 17px;
+}
+
+.eXsign-teacher,
+.eXsign-head {
+    width: 200px;
+    float: left;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 50px;
+}
+
+.eXsign-head {
+    float: right;
+    margin: 0 50px 0 0;
+}
+
+.eXsign-teacher img,
+.eXsign-head img {
+    margin-left: -15px;
+    height: 60px;
+}
+
+
+.eXsign-teacher b,
+.eXsign-head b {
+    border-top: 1px dashed #000000;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'libre-baskerville';
+    color: #000;
+    font-size: 15px;
+}
+
+.scms-admitcard-print {
+    background-color: #8f8f8f;
+
+}
+
+.ExbtnWrap {
+    position: fixed;
+    top: 1em;
+}
+
+.admitEx_bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.admitExTop {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    background: none;
+    padding-bottom: 4px;
+    overflow: hidden;
+}
+
+.topMidEx {
+    padding: 0px;
+    color: #000;
+    margin: 0px;
+}
+
+.ExClass {
+    text-align: center;
+    margin: 6px 0;
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    font-family: 'libre-baskerville';
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 2px dotted rgb(224, 213, 213);
+}
+
+.ExRegNo,
+.ExRollNo {
+    font-family: 'libre-baskerville';
+    line-height: 25px;
+    float: left;
+    margin-left: 109px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 2px dotted rgb(224, 213, 213);
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+}
+
+.ExRollNo {
+    margin-right: 143px;
+    float: right;
+}
+
+.admitLogo {
+    /* margin-left: -20px;
+    float: left;
+    margin-top: -46px;
+    display: block; */
+    width: auto;
+    float: left;
+    display: block;
+}
+/* admit card style end */
+
+.mainBgImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 75%;
+    opacity: 0.4;
+}
+
+.slipWrapEx {
+    height: 430px;
+    position: relative;
+    /* padding:37px 22px 0px 23px; */
+    width: 756px;
+    margin: -26px auto;
+    margin-bottom: 65px;
+}
+
+/*=====slip style== 05-10-2017 */
+
+.slipul {
+    background-color: #fff;
+    float: left;
+
+}
+
+.slipul li {
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+    border: 1px dotted #000;
+    float: left;
+    height: 253px;
+    list-style: none;
+
+}
+
+.slipul li img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slipul p {
+    color: #000;
+    font-size: .8em;
+}
+
+.slipul span {
+    float: right;
+}
+
+.slipul .sliptitle {
+    margin: 24px 0 25px 15px;
+    font-size: .813em;
+    color: #000;
+}
+
+.slipul .slipimg {
+    margin: 0px 115px;
+}
+
+.slipul i {
+    border-bottom: 1px dotted #000;
+}
+
+.photoImg {
+    width: 55px;
+    right: 18px;
+    position: absolute;
+    top: 17px;
+    border: 4px solid #cacaca;
+}
+
+.schoolIdentityslip {
+    transform: scale(1, 1.7);
+    font-size: 20px;
+    padding-top: 0.5em;
+    margin-left: 5px;
+    margin-top: -31px;
+    width: 428px;
+    float: left;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+/*Admit Card @Shovon ENDS*/
+
+
+td.level_display {
+  --icon-space: 1.25em;
+  list-style: none;
+  padding-left: 2.5em !important;
+  font-size: 14px;
+}
+
+td.level_display li {
+  padding-left: var(--icon-space)
+}
+
+td.level_display li:before {
+  content: "\f2b9";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: calc(var(--icon-space) * -1);
+  width: var(--icon-space);
+  color: rgb(50, 190, 205)
+}
+
+
+td.user_display {
+  --icon-space: 1.5em;
+    list-style: none;
+    padding-left: 2.5em !important;
+    font-size: 14px;
+}
+
+td.user_display li {
+  padding-left: var(--icon-space)
+}
+
+td.user_display li:before {
+  content: "\f2bd";
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: calc(var(--icon-space) * -1);
+  width: var(--icon-space);
+  color: rgb(30, 30, 30)
+}

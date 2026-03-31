@@ -1,0 +1,15 @@
+               #mainNav {
+                     height: 47px !important;
+               }
+
+               #mainNav>nav-item {
+                     background-color: #0e0e0e;
+               }
+
+               #mainNav>nav-item:active {
+                     background-color: #fff !important;
+               }
+
+               .test {
+                     color: red;
+               } 

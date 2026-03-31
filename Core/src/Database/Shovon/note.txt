@@ -1,0 +1,18 @@
+1.	
+	hostel_allotements
+	hostel_buildings	
+	hostel_hostels	
+	hostel_rooms
+	hostel_room_type
+
+These 5 Tables are the part of Hostel Management
+
+So,if The 5 Tables are exist in the live server then do nothing
+
+else run the hostel_management.sql
+
+2. scms_student_cycle Table
+
+`seat` varchar(10) NOT NULL
+
+Add above field after resedential field
