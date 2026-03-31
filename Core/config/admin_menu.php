@@ -3,7 +3,7 @@
 namespace Croogo\Core\Config;
 
 use Croogo\Core\Nav;
-//hlkjkl
+//hlkjkl687865785656666666666666666666666666666
 Nav::add('sidebar', 'Gallery', [
     'icon' => 'camera',
     'title' => __d('gallery', 'Gallery'),
