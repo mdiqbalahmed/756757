@@ -3,7 +3,7 @@
 namespace Croogo\Core\Config;
 
 use Croogo\Core\Nav;
-
+//hlkjkl
 Nav::add('sidebar', 'Gallery', [
     'icon' => 'camera',
     'title' => __d('gallery', 'Gallery'),
@@ -1786,7 +1786,7 @@ Nav::add('sidebar', 'Admissions', [
             ],
             'weight' => 20,
         ],
-    'Admission upload' => [
+        'Admission upload' => [
             'title' => __d('menu', 'Admission upload'),
             'url' => [
                 'prefix' => 'admin',
